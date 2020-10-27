@@ -14,7 +14,7 @@ module Alchemy
         end
 
         def run_migrations
-          run 'bundle exec rake db:migrate'
+          #run 'bundle exec rake db:migrate'
         end
 
         def append_assets
